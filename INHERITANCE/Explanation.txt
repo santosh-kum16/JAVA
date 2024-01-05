@@ -1,0 +1,11 @@
+What is Inheritance?
+It is a process of acquiring the properties of one class into another class then, it is considered to be an Inheritance.
+Inheritance can be achieved by the use of the keyword "extends".
+Here properties refer to Methods and Variables present inside the class.
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+
+WHY WE USE INHERITANCE IN JAVA?
+A) For Method Overriding (so runtime polymorphism can be achieved).
+B) Increase the Code Reusability.
+ 
+Example:-
