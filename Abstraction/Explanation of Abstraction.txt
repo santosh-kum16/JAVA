@@ -1,0 +1,49 @@
+# ABSTRACTION IN JAVA?
+ Abstraction is hiding the actual implementation from users and only provide the functionality.
+
+# Abstraction is declared with the abstract keyword a class which is declared with abstract keyword is known as an abstract class in Java.
+  It can have abstract and non-abstract methods (method with the body).
+
+# There is 2-ways to achieve Abstraction in Java:
+  1. Abstract class.
+  2. Interface
+
+# Abstract class in Java-
+  A class which is declared as abstract is known as an abstract class. It can have abstract and non-abstract methods. It needs to be extended and its method implemented.
+  It cannot be instantiated.
+
+# Points to Remember:-
+  An abstract class must be declared with an abstract keyword.
+  It can have abstract and non-abstract methods.
+  It cannot be instantiated.
+  It can have constructors and static methods also.
+  It can have final methods which will force the subclass not to change the body of the method.
+
+#Example:-
+abstract class Xyz{       
+  //can be abstract methods
+  // can be non-abstract methods
+}
+
+# Abstract Method in Java:-
+-> A method which is declared as abstract and does not have implementation is known as an abstract method.
+
+# Example of abstract method:-
+abstract void thisIsExample();  // there is no need to write body of method  
+
+
+# Example of Abstraction class and method:-
+
+abstract class Car{  //Defining an Abstract class
+  abstract void design();  // Defining an Abstract method
+}  
+class Harrier extends Car{  //Extending the "design method" from "Car" class to here in Harrier class
+void design()  // Providing the body to design method
+{
+  System.out.println("This Car Design is Awesome!!!");
+}  
+public static void main(String args[]){  
+ Car obj = new Harrier();  // Creating Object of Harrier Class and giving the Object Reference to the Car
+ obj.design();  //Here we are accessing the "design method" with the Car reference
+}  
+}  
