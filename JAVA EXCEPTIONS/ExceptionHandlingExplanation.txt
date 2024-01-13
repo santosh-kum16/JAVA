@@ -1,0 +1,22 @@
+# Exception Handling in Java:-
+-> The Exception Handling in Java is one of the powerful mechanism to handle the RUNTIME ERRORS so that the normal flow of the application can be maintained.
+-> Below is explaining about about Java exceptions, It's type, and the difference between checked and unchecked exceptions.
+
+What is Exceptions in Java?
+-> In Java, an exception is an event that disturb the normal flow of the program. It is an object which is thrown at runtime.
+
+# Difference in ERRORS and EXCEPTIONS:-
+ERRORS:- It Occurs my be due to bad syntax by the Programer and It is caught at COMPILE TIME but Exceptions Occurs at Run time may be due to Faulty input 
+by user or bad logic by the Programmer.
+
+# What is Exception Handling?
+-> Exception Handling is a mechanism to handle Exceptions at runtime errors such as IndexOutOfBoundsException, IOException, SQLException,ClassNotFoundException, 
+NegativeSizeArray. ...
+
+# Types of Java Exceptions
+-> There are mainly two types of exceptions: checked and unchecked. An error is considered as the unchecked exception. However, according to Oracle, there are three types
+of exceptions namely:
+
+1. Checked Exception
+2. Unchecked Exception
+3. Error
