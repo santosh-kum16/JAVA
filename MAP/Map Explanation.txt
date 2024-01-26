@@ -1,0 +1,16 @@
+1. What is a Map in Java?
+=> A map in Java is a container object that stores elements as key and value pairs. 
+A map contains values on the basis of key, i.e. key and value pair. Each key and value pair is known as an entry.
+A Map contains unique keys.
+A Map is useful if you have to search, update or delete elements on the basis of a key.
+
+JAVA MAP HIERARCHY:-
+Two Interfaces in Java for IMPLEMENTATIONS - Map and SortedMap and Three Class - HashMap, LinkedHashMap, and TreeMap
+
+->A Map doesn't allow duplicate keys, but you can have duplicate values. 
+
+->HashMap and LinkedHashMap allow null keys and values.
+
+->TreeMap doesn't allow any null key or value.
+
+A Map can't be traversed, so you need to convert it into Set using keySet() or entrySet() method
