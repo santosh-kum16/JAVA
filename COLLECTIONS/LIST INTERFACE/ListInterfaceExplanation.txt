@@ -1,0 +1,10 @@
+The List Interface in Java extends the Collection Interface and we can organize and manage the data sequentially.
+
+Key Features:
+
+Maintained the order of elements in which they are added.
+Allows duplicate elements.
+The implementation classes of the List interface are ArrayList, LinkedList, Stack, and Vector.
+It can add Null values that depend on the implementation.
+The List interface offers methods to access elements by their index and includes the listIterator() method, which returns a ListIterator.
+Using ListIterator, we can traverse the list in both forward and backward directions.
