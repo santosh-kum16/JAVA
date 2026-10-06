@@ -1,1 +1,11 @@
+Hibernate is a Java framework used for Object-Relational Mapping (ORM). In simple terms, it helps Java objects map to database tables, so we can work with Java classes instead of writing lots of repetitive SQL code.
 
+It is commonly used to:
+
+Save, update, delete, and fetch data easily
+Reduce database-related boilerplate code
+Support database independence
+Manage transactions and relationships between tables
+Hibernate automatically handles the conversion between Java objects and database records, making application development faster and simpler.
+
+Example: Instead of writing complex SQL queries manually, we can create Java objects and let Hibernate manage the database operations behind the scenes.
